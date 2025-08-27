@@ -1,10 +1,11 @@
-package com.eventclean.Event.Clean.core.entities;
+package com.eventclean.Event.Clean.infrastructure.dtos;
 
 import com.eventclean.Event.Clean.core.enums.TipoEvento;
+
 import java.time.LocalDateTime;
 
 
-public record Evento(
+public record EventoDto(
         Long id,
         String nome,
         String descricao,
@@ -15,7 +16,7 @@ public record Evento(
         Integer capacidade,
         String organizador,
         TipoEvento tipo
-
 ) {
+
 
 }
