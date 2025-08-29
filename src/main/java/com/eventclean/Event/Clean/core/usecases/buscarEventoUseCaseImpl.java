@@ -18,6 +18,5 @@ public class buscarEventoUseCaseImpl implements buscarEventoUseCase {
     public List<Evento> execute(){
         return eventoGateway.buscarEvento();
 
-
     }
 }
